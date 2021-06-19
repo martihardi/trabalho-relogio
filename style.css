@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    
+}
+
+div {
+    background-color: rgb(126, 118, 124);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    border-radius: 10px;
+    border-color: black;
+    border: solid 5px rgb(66, 63, 66);
+    box-shadow: 5px 5px 8px rgb(173, 156, 173);
+}
